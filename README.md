@@ -44,9 +44,9 @@ String message = System.getProperty("message");
 *9) 자바 시스템 프로퍼티 (System.getProperties())
 10) OS 환경 변수
 11) RandomValuePropertySource : 값을 렌덤으로 만들어서 프로퍼티에 주입해주는 기능
-*12) JAR 패키지 외부에 있는 특정 프로파일용 애플리케이션 프로퍼티. (application-{profile}.properties 또는 YAML)
+*12) JAR 패키지 외부에 있는 특정 프로파일용 애플리케이션 프로퍼티. (application-{profile}.properties 또는 YAML) (Spring Cloud Config도 여기에 속함)
 *13) JAR 패키지 내부에 있는 특정 프로파일용 애플리케이션 프로퍼티. (application-{profile}.properties 또는 YAML)
-*14) JAR 패키지 외부에 있는 애플리케이션 프로퍼티. (application.properteis 또는 YAML)
+*14) JAR 패키지 외부에 있는 애플리케이션 프로퍼티. (application.properteis 또는 YAML) (Spring Cloud Config도 여기에 속함)
 *15) JAR 패키지 내부에 있는 애플리케이션 프로퍼티. (application.properteis 또는 YAML)
 *16) @Configuration 클래스에 사용한 @PropertySource로 읽어들인 프로퍼티
 *17) 기본 프로퍼티 (SpringApplication.setDefaultProperties())
